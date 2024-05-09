@@ -19,12 +19,12 @@ body {
 
 .outer-container {
   background-color: hsl(0, 0%, 100%);
-  width: 600px;
+  width: 550px;
   border-radius: 1rem 1rem 5rem 1rem;
 }
 
 .inner-container {
-  padding: 2rem;
+  padding: 3rem;
   display: flex;
   flex-direction: column;
 }
@@ -76,8 +76,8 @@ input {
     margin-bottom: 2rem;
 }
 .output h1{
-    font-size: 80px;
-    font-weight: 600;
+    font-size: 60px;
+    font-weight: 500;
    
 }
 .output span {
