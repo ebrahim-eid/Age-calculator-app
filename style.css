@@ -1,0 +1,93 @@
+@font-face {
+  font-family: popins;
+  src: url("assets/fonts/Poppins-Bold.ttf");
+}
+
+* {
+  font-family: popins;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 94%);
+}
+
+.outer-container {
+  background-color: hsl(0, 0%, 100%);
+  width: 600px;
+  border-radius: 1rem 1rem 5rem 1rem;
+}
+
+.inner-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+.form-container {
+  display: flex;
+  gap: 2rem;
+}
+.form-class {
+  display: flex;
+  flex-direction: column;
+}
+.form-class label {
+  font-weight: 600;
+  color: hsl(0, 1%, 44%);
+  text-transform: uppercase;
+  padding-bottom: 0.3rem;
+}
+input {
+  width: 120px;
+  padding: 0.5rem;
+  border: 1px solid hsl(0, 0%, 86%);
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.form-submit {
+    display: flex;
+    align-items: center;
+}
+.form-submit hr{
+    width: 100%;
+    border: none;
+    border: 1px solid hsl(0, 0%, 86%);;
+}
+
+.form-submit .submit-btn{
+    border-radius: 50%;
+    padding: 1rem;
+    background-color: hsl(259, 100%, 65%);
+}
+.output {
+    padding-left: 2rem;
+    margin-top: -4rem;
+    margin-bottom: 2rem;
+}
+.output h1{
+    font-size: 80px;
+    font-weight: 600;
+   
+}
+.output span {
+color: hsl(259, 100%, 65%);
+}
+
+small {
+  padding-top: 10px;
+  color: hsl(0, 100%, 67%);
+  font-size: 10px;
+}
+@media screen and (max-width: 600px) {
+}
